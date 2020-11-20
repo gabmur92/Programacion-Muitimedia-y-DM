@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VotoPerro</string>
+    <string name="Bmostrar">Mostrar perro</string>
+    <string name="link_page">link</string>
+    <string name="RB1">Mola</string>
+    <string name="RB2">Esta bien</string>
+    <string name="RB3">Normalito</string>
+    <string name="RB4">Meh</string>
+    <string name="SB1">Enviar</string>
+    <string name="BCambio">Cambiar imagen</string>
+
+</resources>
