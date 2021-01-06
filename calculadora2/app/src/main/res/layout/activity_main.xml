@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:background="#212121"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Etiqueta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gridLayout"
+        android:height="100dp"
+        android:textColor="#F5F5F5"
+        android:textSize="35dp"
+        android:layout_centerHorizontal="true" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:rowCount="6">
+
+        <Button
+            android:id="@+id/Clean"
+            android:background="#FE726B"
+            android:text="@string/limpiar"
+            android:textColor="#070606" />
+
+        <Button
+            android:id="@+id/Divide"
+            android:background="#B5CAFE"
+            android:text="@string/division"
+            android:textColor="#070606" />
+
+        <Button
+            android:id="@+id/Multiplica"
+            android:background="#B5CAFE"
+            android:text="@string/multiplicacion"
+            android:textColor="#070606" />
+
+        <Button
+            android:id="@+id/Borrar"
+            android:background="#B5CAFE"
+            android:text="@string/borrar"
+            android:textColor="#070606" />
+
+        <Button
+            android:id="@+id/Siete"
+            android:background="#FFFFFF"
+            android:text="@string/siete"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/Ocho"
+            android:background="#FFFFFF"
+            android:text="@string/ocho"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/Nueve"
+            android:background="#FFFFFF"
+            android:text="@string/nueve"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/Resta"
+            android:background="#B5CAFE"
+            android:text="@string/resta"
+            android:textColor="#070606" />
+
+        <Button
+            android:id="@+id/Cuatro"
+            android:background="#FFFFFF"
+            android:text="@string/cuatro"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/Cinco"
+            android:background="#FFFFFF"
+            android:text="@string/cinco"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/Seis"
+            android:background="#FFFFFF"
+            android:text="@string/seis"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/Suma"
+            android:background="#B5CAFE"
+            android:text="@string/suma"
+            android:textColor="#070606" />
+
+        <Button
+            android:id="@+id/Uno"
+            android:background="#FFFFFF"
+            android:text="@string/uno"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/Dos"
+            android:background="#FFFFFF"
+            android:text="@string/dos"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/Tres"
+            android:background="#FFFFFF"
+            android:text="@string/tres"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/Igual"
+            android:layout_height="96dp"
+            android:layout_rowSpan="2"
+            android:background="#B5CAFE"
+            android:text="@string/igual"
+            android:textColor="#070606" />
+
+        <Button
+            android:id="@+id/Cero"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill"
+            android:background="#FFFFFF"
+            android:text="@string/cero"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/Punto"
+            android:background="#FFFFFF"
+            android:text="@string/punto"
+            android:textColor="#000000" />
+    </GridLayout>
+</RelativeLayout>
